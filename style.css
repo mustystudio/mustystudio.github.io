@@ -1188,7 +1188,19 @@ footer .copyright {
     .footer-links {
         flex-wrap: wrap;
     }
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+}
 
+.logo img {
+    width: 65px;
+    height: 45px;
+    object-fit: contain;
+    display: block;
+}
     .cart {
         padding: 25px;
     }
