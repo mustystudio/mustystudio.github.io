@@ -1193,3 +1193,9 @@ footer .copyright {
         padding: 25px;
     }
 }
+.logo img {
+    width: 100px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
