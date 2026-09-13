@@ -80,7 +80,18 @@ img {
 .logo span {
     color: var(--musty);
 }
+.logo {
+    display: flex;
+    align-items: center;
+    height: 76px;
+}
 
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    display: block;
+}
 .nav {
     display: flex;
     align-items: center;
@@ -1195,13 +1206,4 @@ footer .copyright {
     height: 60px;
 }
 
-.logo img {
-    width: 65px;
-    height: 45px;
-    object-fit: contain;
-    display: block;
-}
-    .cart {
-        padding: 25px;
-    }
-}
+
